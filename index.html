@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Coding Survey</title>
+  </head>
+
+  <body>
+
+    <div class="form">
+    <h1 id="title">Coding Survey</h1>
+    <p id="description">Be nerd, go pro!</p>
+    <form id="survey-form">
+
+      <div class="Userinfo">
+      <label for="name" id="name-label"> 
+        Name <input id="name" type="text" placeholder="John Doe" required />
+      </label>
+      <label for="email" id="email-label">
+        Email <input id="email" type="email" placeholder="john.doe@host.com" required/>
+      </label>
+      <label for="number" id="number-label">
+        Age <input id="number" type="number" min="13" max="125" placeholder="Select age (min.13)" />
+      </label>
+      </div>
+
+      <div class="skill">
+      <label for="dropdown" id="dropdown-label"> What's your skill level?
+        <select id="dropdown">
+         <option>Beginer</option>
+         <option>Competent</option>
+         <option>Proficient</option>
+         <option>Expert</option>
+       </select>
+      </label>
+      </div>
+
+      <p class="Q">What OS do you use for coding?</p>
+      <div id="OSlist">
+      <label for="Windows">
+        Microsoft Windows <input type="radio" Name="FavOS" id="Windows" Value="Windows" checked/> 
+      </label>
+            <label for="Linux">Linux 
+        <input type="radio" Name="FavOS" id="Linux" Value="Linux"/> 
+      </label>
+            <label for="MacOS">MacOS 
+        <input type="radio" Name="FavOS" id="MacOS" Value="MacOS"/> 
+      </label>
+            <label for="OtherOS">Other 
+        <input type="radio" Name="FavOS" id="OtherOS" Value="OtherOS"/> 
+      </label>
+      </div>
+
+      <p class="Q">What languages do you know or are currently learning?</p>
+      <div class="lang-list">
+      <label for="javascript">
+        <input type="checkbox" id="javascript" value="javascript"> Javascript
+      </label>
+      <label for="HTML-CSS">
+        <input type="checkbox" id="HTML-CSS" value="HTML-CSS"> HTML/CSS
+      </label>
+      <label for="python">
+        <input type="checkbox" id="python" value="python"> Python
+      </label>
+      <label for="SQL">
+        <input type="checkbox" id="SQL" value="SQL"> SQL
+      </label>
+      <label for="TypeScript">
+        <input type="checkbox" id="TypeScript" value="TypeScript"> TypeScript
+      </label>
+      <label for="BASH-SHELL">
+        <input type="checkbox" id="BASH-SHELL" value="BASH-SHELL"> Bash/Shell
+      </label>
+      <label for="Java">
+        <input type="checkbox" id="Java" value="Java"> Java
+      </label>
+      <label for="C#">
+        <input type="checkbox" id="C#" value="C#"> C#
+      </label>
+      <label for="C++">
+        <input type="checkbox" id="C++" value="C++"> C++
+      </label>
+      <label for="C">
+        <input type="checkbox" id="C" value="C"> C
+      </label>
+      <label for="powershell">
+        <input type="checkbox" id="powershell" value="powershell"> PowerShell
+      </label>
+      <label for="PHP">
+        <input type="checkbox" id="PHP" value="PHP"> PHP
+      </label>
+      <label for="GO">
+        <input type="checkbox" id="GO" value="GO"> GO
+      </label>
+      <label for="rust">
+        <input type="checkbox" id="rust" value="rust"> Rust
+      </label>
+      <label for="kotlin">
+        <input type="checkbox" id="kotlin" value="kotlin"> Kotlin
+      </label>
+      <label for="ruby">
+        <input type="checkbox" id="ruby" value="ruby"> Ruby
+      </label>
+      <label for="lua">
+        <input type="checkbox" id="lua" value="lua"> Lua
+      </label>
+      <label for="dart">
+        <input type="checkbox" id="dart" value="dart"> Dart
+      </label>
+      <label for="assembly">
+        <input type="checkbox" id="assembly" value="assembly"> Assembly
+      </label>
+      <label for="swift">
+        <input type="checkbox" id="swift" value="swift"> Swift
+      </label>
+      <label for="R">
+        <input type="checkbox" id="R" value="R"> R
+      </label>
+      <label for="visualbasicnet">
+        <input type="checkbox" id="visualbasicnet" value="visualbasicnet"> Visual Basic (.net)
+      </label>
+      <label for="MATLAB">
+        <input type="checkbox" id="MATLAB" value="MATLAB"> MATLAB
+      </label>
+      <label FOR="groovy">
+        <input type="checkbox" id="groovy" value="groovy"> Groovy
+      </label>
+      <label for="VBA">
+        <input type="checkbox" id="VBA" value="VBA"> VBA
+      </label>
+      </div>
+
+      <label for="textbox">
+        What motivated you to start coding?
+<textarea id="textbox" rows="6" cols="50"></textarea>
+      </label>
+
+      <input type="submit" value="Submit" id="submit">
+
+    </form>
+    </div>
+  </body> 
+  <link rel="stylesheet" href="styles.css">
+</html>
